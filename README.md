@@ -1,6 +1,11 @@
 # Linux Essentials For Ethical Hacking
 Commands, examples and references about using linux for ethical hacking
 
+## General information
+When terminal information end with "/$" you are logged with normal user
+
+When terminal information end with "/#" you are logged with root user
+
 ## The Linux File System
 ### ** Everything in Linux is file: Networks settings, devices e etc.
 The root file system -> /
@@ -59,8 +64,6 @@ To close the terminal: Ctrl + Shift + W
 
 
 ## Linux Usefull Commands
-Show your logged user -> whoami
-
 List all directores and files from you are -> ls
 
 Show the full path when you are -> pwd
@@ -73,8 +76,39 @@ Copy a file -> cp (The cp command standsfor copy)
 
 Add a user -> adduser
 
+## Getting Helping in Terminal
 Show de full path of a command -> which + "command"
 
-## Getting Helping in Terminal
+Show your logged user -> whoami
 
+Show id of my logged user -> id
 
+Show pc name on network -> hostname
+
+Show linux name -> uname (standsfor Unix Name)
+
+Show network informations -> ifconfig
+
+Show, manipulate routting, network devices e etc -> ip
+
+Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships -> netstat
+
+Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships -> ss
+
+Check de process status -> ps (Standsfor Process Status)
+
+Who is logged into you system -> who
+
+Show all envriment variables -> env
+
+Lists information about all available or the specified block  devices -> lsblk
+
+Utility for displaying information about USB buses in the system and the devices  connected to them -> lsusb
+
+Information about files opened by processes -> lsof
+
+Getting information from System Manager's Manual from commands -> man + "command"
+
+Getting help about command's options -> "command" + --help
+
+Getting help to find commando by context that you want to do -> apropos + "Part of text about you want todo, like 'usb' ou 'network'"
