@@ -1,3 +1,5 @@
+To change de default shell in $SHELL -> chsh and [full path to new shell]
+
 Go to your home directory -> cd OR cd ~
 
 Where i am -> pwd
